@@ -1,0 +1,112 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12-mar-2015, 18.41.57
+    Author     : amm
+*/
+#container{
+            display: block;
+            width: 98%;
+            height: 1024px;
+            margin: 0px;
+            padding: 0px;
+            background-color: white;  
+            border: 5px black solid;
+          }
+header{  
+        background-color: rgb(40,66,123);
+        display: block;
+        widthbox: 100%;
+        height: 281px;
+        margin: 0px;
+        padding-right:30px;
+        font-size:70px;
+        font-family: arial;
+        text-align: right; 
+        color: white;
+       }
+       
+       nav{
+            background-color: rgb(40,66,123);
+           
+        border-bottom: 5px black solid;
+        border-top: 5px black solid;
+       }
+       nav a{
+            text-decoration: none;
+            text-align: left;
+            font-size: 30px;
+            width: 50px;
+            height: 20px; 
+            border-right: 1px solid #000000;
+            font-family: arial;
+           color: white;
+       }
+       nav a:hover{
+           background-color: rgb(53,95,120);
+           border-right: 3px black solid;
+       }
+       
+aside{
+        display: block;
+        width:  200px;
+        height:  700px;
+        background-color: rgb(40,66,123);
+        float: left;
+        margin: 0px;
+        padding-left: 5px; 
+        padding-right:3px;
+        border-right: 5px black solid;
+        color: white;
+        font-size: 13px;
+     }
+
+article{
+        display: block;
+        width:795px;
+        height: 700px;
+        background-color: white;
+        float: left;
+        color: rgb(0,0,0);
+        padding-left: 20px;
+        overflow:auto;
+        font-size: 16px;
+    
+       }
+       section{
+           width:200px;
+           height:200px;
+           background-color: rgb(40,66,123);
+       }
+       
+#right{ 
+      display: block;
+      width: 190px;
+      height: 700px;
+      float: right;
+      margin: 0px;
+      padding: 0px;
+      background-image: url(liberta.jpg);
+      background-repeat: no-repeat;
+      background-position: bottom;
+      background-color: rgb(40,66,123); 
+      border-left: 5px black solid;
+      overflow:auto;
+      }
+footer{ 
+        display: block;
+        float:left;
+        width: 100%;
+        height: 40px;
+        background-color: rgb(40,66,123);
+        margin: 0px;
+        padding: 0px;
+        border-top: 3px black solid;
+        font-size: 13px;
+        text-align: center;
+        font-weight: bold;
+        color:rgb(204,204,204);
+      }
