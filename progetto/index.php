@@ -7,10 +7,10 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
-        <title></title>
+        <title>Il fagiolo magico</title>
     </head>
     <body>
-        prova
+        <h1>You are welcome</h1>
         <?php
         // put your code here
         ?>
