@@ -11,6 +11,8 @@ and open the template in the editor.
     </head>
     <body>
         <h1>You are welcome</h1>
+        <label for="psw">password</label>
+        <input type="password" name="psw" id="psw"/>
         <?php
         // put your code here
         ?>
