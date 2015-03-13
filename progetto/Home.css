@@ -57,7 +57,7 @@ and open the template in the editor.
        }
        
 aside{
-        //background-color: greenyellow;
+    background-color: azure;
         //text-align: center;
         display: block;
         width:  200px;
@@ -149,7 +149,7 @@ footer{
   
 }
 //VISUALIZZAZIONE SU DISPOSITIVO MOBILE
-@media only screen and (max-width: 1280px)
+@media all and (max-width: 1280px)
 {  	
   
 #container{
