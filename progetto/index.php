@@ -24,7 +24,26 @@ and open the template in the editor.
             <a href="index.php">Profilo</a>
         </nav>
         <aside>
-            colonna sinistra
+            <ul>
+                <h2>Articoli più in vista:</h2>
+                <li><a href="undefined.html">Come coltivare</a></li>
+                <li><a href="undefined.html">Come coltivare</a></li>
+                <li><a href="undefined.html">Come coltivare</a></li>
+                <li><a href="undefined.html">Come coltivare</a></li>
+                <li><a href="undefined.html">Come coltivare</a></li>
+                <li><a href="undefined.html">Come coltivare</a></li>
+                <li><a href="undefined.html">Come coltivare</a></li>
+            </ul>
+            <ul>
+                <h2>Prodotti più venduti:</h2>
+                <li><a href="undefined.html">Come coltivare</a></li>
+                <li><a href="undefined.html">Come coltivare</a></li>
+                <li><a href="undefined.html">Come coltivare</a></li>
+                <li><a href="undefined.html">Come coltivare</a></li>
+                <li><a href="undefined.html">Come coltivare</a></li>
+                <li><a href="undefined.html">Come coltivare</a></li>
+                <li><a href="undefined.html">Come coltivare</a></li>
+            </ul>
         </aside>
         <article>
             <h1>Pianta carnivora di super mario</h1>
@@ -42,6 +61,8 @@ and open the template in the editor.
             <input type="text" name="usr" id="usr" value="Username"/> <br/>
             <label for="psw">Password</label>
             <input type="password" name="psw" id="psw" value="*********"/> <br/>
+            
+            <button type="submit" id="log">Accedi</button> <br/>
             <a href="">Non sei registrato ? clicca qui</a>
         </div>
         
