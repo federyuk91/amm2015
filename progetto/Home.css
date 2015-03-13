@@ -9,7 +9,7 @@ and open the template in the editor.
 */
 
 //VISUALIZZAZIONE SU DISPOSITIVO MOBILE
-@media all
+@media only handheld and (max-width: 1280px)
 {  	
   
 #container{
