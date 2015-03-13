@@ -126,7 +126,11 @@ footer{
         
       }
       
-      ul { list-style-image: url('foglia.png') }
+      ul { list-style-image: url('foglia.png') } 		
+  
+}
+
+
   .add{
       
         width: 50px;
@@ -145,9 +149,8 @@ footer{
         background-position: center center;
         border-radius: 20px 20px 20px 20px; 
   }
-  		
-  
-}
+
+//VISUALIZZAZIONE SU DISPOSITIVO MOBILE
 @media only screen and (min-width: 480px)
                    and (max-width: 1280px)
 

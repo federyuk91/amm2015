@@ -62,7 +62,7 @@ and open the template in the editor.
                     <option value="4">4</option>
                 </select><br/>
                 <label for="add">Aggiungi al carrello</label>
-                <button type="submit" class="add" alt="Aggiungi al carrello"/>
+                <button type="submit" class="add" value="Aggiungi al carrello"/>
             </section>
             Mario, cercando di addentarlo; alcune specie possono sputare palle di fuoco, alcune invece palle di ghiaccio, 
             altre possiedono un corpo intero.<br/> Il capo di tutte le Piante Piranha è Pipino Piranha.
