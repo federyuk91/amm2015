@@ -13,50 +13,36 @@ and open the template in the editor.
     <body>
         <div id="container">
         <header>
-            Intestazione
+            Il fagiolo magico
         </header>
         <nav>
-            <a href="index.php">link 1</a>
-            <a href="index.php">link 2</a>
-            <a href="index.php">link 3</a>
-            <a href="index.php">link 4</a>
-            <a href="index.php">link 5</a>
-            <a href="index.php">link 6</a>
+            <a href="index.php">Home</a>
+            <a href="index.php">News!</a>
+            <a href="index.php">Recenti</a>
+            <a href="index.php">Carrello</a>
+            <a href="index.php">Storico</a>
+            <a href="index.php">Profilo</a>
         </nav>
         <aside>
             colonna sinistra
         </aside>
         <article>
-            Articolo
+            <h1>Pianta carnivora di super mario</h1>
+            La Pianta Piranha (Piranha Plant - パックン フラワー, Pakkun Furawā?, Pakkun Flower) è una pianta carnivora che compare in quasi tutti i titoli del videogioco. Generalmente, nelle avventure bidimensionali queste piante spuntano dai classici tubi appartenenti al mondo di Mario, cercando di addentarlo; alcune specie possono sputare palle di fuoco, alcune invece palle di ghiaccio, altre possiedono un corpo intero. Il capo di tutte le Piante Piranha è Pipino Piranha.
             <section>
-                sezione dell'articolo
+                <img src="piranha_plant.png">
+                Un raro esemplare di pianta carnivora
             </section>
+            <button type="submit" id="add">Aggiungi al carrello</button>
         </article>
         <div id="right">
-            <h1>You are welcome</h1>
-            <h2>Registrati ora</h2>
-            <label for="psw">Password</label>
-            <input type="password" name="psw" id="psw"/> <br/>
-            <label for="mail">Mail</label>
-            <input type="mail" name="mail" id="mail"/> <br/>
+            <h1>Benvenuto</h1>
+            <h2>Accedi ora:</h2>
             <label for="usr">User</label>
             <input type="text" name="usr" id="usr" value="Username"/> <br/>
-            <h2>Sesso:</h2>
-            <label for="maschio">Maschio:</label> 
-            <input type="radio" id="maschio" value="Maschio"/> <br/>
-            <label for="femme">Femmina:</label> 
-            <input type="radio" id="femme" value="Femmina"/> <br/>
-
-            <textarea id="description"></textarea>
-
-            <br/>
-            <select name="title">
-                <option>1</option>
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
-                <option>5</option>
-            </select>
+            <label for="psw">Password</label>
+            <input type="password" name="psw" id="psw" value="*********"/> <br/>
+            <a href="">Non sei registrato ? clicca qui</a>
         </div>
         
         <footer>
