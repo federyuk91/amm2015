@@ -148,8 +148,7 @@ footer{
   		
   
 }
-@media only screen and (max-width: 1280)
-{
+
     
         header{ 
             background-size: 100%;
@@ -182,5 +181,5 @@ footer{
         #right{
             display: none;
         }
-} 	
+ 	
   
