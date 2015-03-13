@@ -187,11 +187,7 @@ footer{
             font-family: arial;
             color: white;
        }
-       nav a:hover{
-           color: black;
-           border-right: 3px black solid;
-           background-color: greenyellow;
-       }
+       
         aside{
             display: none;
         }
