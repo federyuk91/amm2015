@@ -7,7 +7,7 @@ and open the template in the editor.
     Created on : 12-mar-2015, 18.41.57
     Author     : amm
 */
-@media only screen and (min-width: 1280px)
+@media only screen and (min-width: 1281px)
 {  	
   
 #container{
@@ -152,7 +152,6 @@ footer{
 //VISUALIZZAZIONE SU DISPOSITIVO MOBILE
 @media only screen and (min-width: 480px)
                    and (max-width: 1280px)
-
 {
     
         header{ 
