@@ -213,12 +213,5 @@ footer{
             background-position: center center;
             border-radius: 20px 20px 20px 20px; 
         }
-        .add:hover{
-            background-image: url('carrelloh.png');
-            background-repeat: no-repeat;
-            background-size:120%;
-            background-position: center center;
-            border-radius: 20px 20px 20px 20px; 
-        }
 } 	
   
