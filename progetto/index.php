@@ -7,7 +7,7 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="Home.css" type="text/css" />
+        <link rel="stylesheet" href="Home.css" type="text/css" media="screen" />
         <title>Il fagiolo magico</title>
     </head>
     <body>
@@ -47,12 +47,26 @@ and open the template in the editor.
         </aside>
         <article>
             <h1>Pianta carnivora di super mario</h1>
-            La Pianta Piranha (Piranha Plant - パックン フラワー, Pakkun Furawā?, Pakkun Flower) è una pianta carnivora che compare in quasi tutti i titoli del videogioco. Generalmente, nelle avventure bidimensionali queste piante spuntano dai classici tubi appartenenti al mondo di Mario, cercando di addentarlo; alcune specie possono sputare palle di fuoco, alcune invece palle di ghiaccio, altre possiedono un corpo intero. Il capo di tutte le Piante Piranha è Pipino Piranha.
+            La Pianta Piranha (Piranha Plant - パックン フラワー, Pakkun Furawā?, Pakkun Flower) è una pianta carnivora che compare in quasi tutti i titoli del videogioco. 
+            Generalmente, nelle avventure bidimensionali queste piante spuntano dai classici tubi appartenenti al mondo di 
+            
             <section>
                 <img src="piranha_plant.png">
-                Un raro esemplare di pianta carnivora
+                <br/>
+                
+            <label for="qnt">Quantità: </label>
+                <select name="Quantità" id="qnt">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select><br/>
+                <label for="add">Aggiungi al carrello</label>
+                <button type="submit" class="add" alt="Aggiungi al carrello"/>
             </section>
-            <button type="submit" id="add">Aggiungi al carrello</button>
+            Mario, cercando di addentarlo; alcune specie possono sputare palle di fuoco, alcune invece palle di ghiaccio, 
+            altre possiedono un corpo intero.<br/> Il capo di tutte le Piante Piranha è Pipino Piranha.
+           
         </article>
         <div id="right">
             <h1>Benvenuto</h1>
@@ -67,7 +81,7 @@ and open the template in the editor.
         </div>
         
         <footer>
-            note di creazione
+            copyleft all right reversed 2015. |Federico Bachis|
         </footer>
     </div>
         <?php
