@@ -165,12 +165,22 @@ footer{
             text-align: right; 
             color: white;
         }
+       nav{
+           background-color: forestgreen;
+           border-top: 5px white solid;
+           border-bottom: 5px white solid;
+           width: 100%;
+       }
         aside{
             display: none;
         }
         article{
             display: block;
+            float: left;
             width: 100%;
+        }
+        #right{
+            display: none;
         }
 } 	
   
