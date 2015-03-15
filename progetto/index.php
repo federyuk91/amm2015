@@ -9,6 +9,21 @@ and open the template in the editor.
         <meta charset="UTF-8">
         <link rel="stylesheet" href="Home.css" type="text/css" />
         <title>Il fagiolo magico</title>
+        <style type="text/css" media="screen and (max-width:800px)">
+            @media screen and (max-width:1200px){
+                aside{
+                    display: none;
+                }
+                article{
+                    max-width: 100%;
+                }
+                #right{
+                    float: none;
+                    width: 100%;
+                    height: auto;
+                }
+            }
+        </style>
     </head>
     <body>
         <div id="container">
@@ -72,9 +87,9 @@ and open the template in the editor.
             <h1>Benvenuto</h1>
             <h2>Accedi ora:</h2>
             <label for="usr">User</label>
-            <input type="text" name="usr" id="usr" value="Username"/> <br/>
+            <input type="text" name="usr" id="usr" value="Username"/> 
             <label for="psw">Password</label>
-            <input type="password" name="psw" id="psw" value="*********"/> <br/>
+            <input type="password" name="psw" id="psw" value="*********"/>
             
             <button type="submit" id="log">Accedi</button> <br/>
             <a href="">Non sei registrato ? clicca qui</a>

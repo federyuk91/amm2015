@@ -7,14 +7,7 @@ and open the template in the editor.
     Created on : 12-mar-2015, 18.41.57
     Author     : amm
 */
-@media screen and (max-width:800px){
-    aside{
-        display: none;
-    }
-    #right{
-        display: none;
-    }
-}
+
 button{
     cursor: pointer;
 }
