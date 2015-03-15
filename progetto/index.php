@@ -7,7 +7,7 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="Home.css" type="text/css" media="" />
+        <link rel="stylesheet" href="Home.css" type="text/css" media="screen" />
         <title>Il fagiolo magico</title>
     </head>
     <body>
