@@ -58,7 +58,7 @@ aside{
         //text-align: center;
         display: block;
         width: 19%;
-        min-width:  200px;
+        //min-width:  200px;
         height:  700px;
         float: left;
         margin: 0px;
@@ -97,7 +97,7 @@ article{
         color: green;
         display: block;
         width: 19%;
-        min-width: 200px;
+        //min-width: 200px;
         height: 700px;
         float: right;
         margin: 0px;
