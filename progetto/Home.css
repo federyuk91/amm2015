@@ -9,7 +9,7 @@ and open the template in the editor.
 */
 #container{
             display: block;
-            width: 98%;
+            //width: 98%;
             height: 1024px;
             margin: 0px;
             padding: 0px; 
@@ -57,7 +57,8 @@ aside{
     background-color: azure;
         //text-align: center;
         display: block;
-        width:  200px;
+        width: 19%;
+        min-width:  200px;
         height:  700px;
         float: left;
         margin: 0px;
@@ -74,7 +75,7 @@ aside{
 
 article{
         display: block;
-        width:795px;
+        max-width: 55%;
         height: 700px;
         float: left;
         color: rgb(0,0,0);
@@ -87,7 +88,7 @@ article{
            display: inline-block;
            float: left;
            border: 10px white solid;
-           //float: left;
+           float: left;
            width:235px;
        }
        
@@ -95,7 +96,8 @@ article{
     background-color: azure;
         color: green;
         display: block;
-        width: 200px;
+        width: 19%;
+        min-width: 200px;
         height: 700px;
         float: right;
         margin: 0px;
