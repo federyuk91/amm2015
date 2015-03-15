@@ -11,11 +11,13 @@ and open the template in the editor.
         <title>Il fagiolo magico</title>
         <style type="text/css" media="screen and (max-width:800px)">
             @media screen and (max-width:1200px){
+                header{height: auto; min-height: 100px;}
                 aside{
                     display: none;
                 }
                 article{
                     max-width: 100%;
+                    height: auto;
                 }
                 #right{
                     float: none;

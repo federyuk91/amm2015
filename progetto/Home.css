@@ -25,6 +25,7 @@ button{
             background-repeat: no-repeat;
             display: block;
             widthbox: 100%;
+            //background-attachment: fixed; 
             height: 300px;
             margin: 0px;
             padding-right:30px;
