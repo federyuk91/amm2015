@@ -14,10 +14,18 @@ and open the template in the editor.
                 header{height: auto; min-height: 100px;}
                 aside{
                     display: none;
+                    /*background-color: azure;
+                    float: none;
+                    width: 100%;
+                    height: auto;*/
                 }
+                //aside ul{ display: inline; size:15px; width: 40%; float:left; border-right: 1px green solid;}
+                //aside ul:hover{background-color: #ACE1AF;}
                 article{
                     max-width: 100%;
                     height: auto;
+                    margin-top: 10px;
+                    border-top: 1px green solid;
                 }
                 #right{
                     float: none;
@@ -42,7 +50,7 @@ and open the template in the editor.
         </nav>
         <aside>
             <ul>
-                <h2>Articoli più in vista:</h2>
+                <h3>Articoli più in vista:</h3>
                 <li><a href="undefined.html">Come coltivare</a></li>
                 <li><a href="undefined.html">Come coltivare</a></li>
                 <li><a href="undefined.html">Come coltivare</a></li>
@@ -52,7 +60,7 @@ and open the template in the editor.
                 <li><a href="undefined.html">Come coltivare</a></li>
             </ul>
             <ul>
-                <h2>Prodotti più venduti:</h2>
+                <h3>Prodotti più venduti:</h3>
                 <li><a href="undefined.html">Come coltivare</a></li>
                 <li><a href="undefined.html">Come coltivare</a></li>
                 <li><a href="undefined.html">Come coltivare</a></li>
@@ -62,6 +70,19 @@ and open the template in the editor.
                 <li><a href="undefined.html">Come coltivare</a></li>
             </ul>
         </aside>
+        <div id="right">
+            <h1>Benvenuto</h1>
+            <h2>Accedi ora:</h2>
+            <form action=”index.php” method=”post”>
+                <label for="usr">User</label>
+                <input type="text" name="usr" id="usr" value="Username"/> 
+                <label for="psw">Password</label>
+                <input type="password" name="psw" id="psw" value="*********"/>
+                <button type="submit" id="log" name="submit" value="invia">Accedi</button> <br/>
+            </form>
+            <a href="">Non sei registrato ? clicca qui</a>
+            
+        </div>
         <article>
             <h1>Pianta carnivora di super mario</h1>
             La Pianta Piranha (Piranha Plant - パックン フラワー, Pakkun Furawā?, Pakkun Flower) è una pianta carnivora che compare in quasi tutti i titoli del videogioco. 
@@ -85,22 +106,12 @@ and open the template in the editor.
             altre possiedono un corpo intero.<br/> Il capo di tutte le Piante Piranha è Pipino Piranha.
            
         </article>
-        <div id="right">
-            <h1>Benvenuto</h1>
-            <h2>Accedi ora:</h2>
-            <label for="usr">User</label>
-            <input type="text" name="usr" id="usr" value="Username"/> 
-            <label for="psw">Password</label>
-            <input type="password" name="psw" id="psw" value="*********"/>
-            
-            <button type="submit" id="log">Accedi</button> <br/>
-            <a href="">Non sei registrato ? clicca qui</a>
-        </div>
+    </div>
+        
         
         <footer>
             copyleft all right reversed 2015. |Federico Bachis|
         </footer>
-    </div>
         <?php
         // put your code here
         ?>

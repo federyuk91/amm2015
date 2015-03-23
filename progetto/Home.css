@@ -7,15 +7,18 @@ and open the template in the editor.
     Created on : 12-mar-2015, 18.41.57
     Author     : amm
 */
+body{
+    alignment-adjust: central;
+}
 
 button{
     cursor: pointer;
 }
 #container{
-            display: block;
-            //width: 98%;
+            
+            width: 90%;
             height: 1024px;
-            margin: 0px;
+            margin: 0 auto;
             padding: 0px; 
             //border: 2px green solid;
           }
@@ -26,7 +29,7 @@ button{
             display: block;
             widthbox: 100%;
             //background-attachment: fixed; 
-            height: 300px;
+            height: 250px;
             margin: 0px;
             padding-right:30px;
             font-size:70px;
@@ -43,19 +46,19 @@ button{
        nav a{
             text-decoration: none;
             text-align: left;
-            padding-left: 10px;
             padding-right: 10px;
             font-size: 30px;
             width: 60px;
             height: 20px; 
-            border-right: 1px solid #000000;
+            border-right:1px solid green;
+            border-collapse: collapse;
             font-family: arial;
             color: white;
        }
        nav a:hover{
            color: black;
            border-right: 3px black solid;
-           background-color: greenyellow;
+           background-color: #03C03C;
        }
        
 aside{
@@ -82,7 +85,6 @@ article{
         display: block;
         max-width: 55%;
         height: 700px;
-        float: left;
         color: rgb(0,0,0);
         padding-left: 20px;
         overflow:auto;
